@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Generation eTicketing ||</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- -------------------------------Header section Start------------- -->
+    <header class="header">
+        <a href="#"><img src="../src/img1.png" /></a>
+        <nav class="navbar">
+            <!-- <a href="#" class="btn">LOGIN</a> -->
+            <button class="btn">LOGIN</button>
+            <a href="#">REGISTER</a>
+            <a href="#">AGENT LOGIN</a>
+            <a href="#">CONTACT US</a>
+            <a href="#">ASK DISHA</a>
+            <a href="#" class="alert" style="padding: 1rem 1.5rem;">ALERTS</a>
+            <a class="time" id="time"></a>
+            <br>
+            <a href="#" class="links"><i class='bx bx-home'></i></a>
+            <button class="btn">IRCTC EXCLUSIVE</button>
+            <a href="#" style="color: rgba(251,121,43,1); font-weight: 700;text-decoration: 2px underline;">TRAINS</a>
+            <a href="https://www.bus.irctc.co.in/home" target="_blank" class="font">BUSES</a>
+            <a href="https://www.air.irctc.co.in/" target="_blank" class="font">FLIGHTS</a>
+            <a href="https://www.hotel.irctctourism.com/" target="_blank" class="font">HOTELS</a>
+            <a href="#" class="font">HOLIDAYS</a>
+            <a href="#" class="font">LOYALTY</a>
+            <a href="#" class="font">MEALS</a>
+            <a href="#" class="font">PROMOTIONSS</a>
+            <a href="#" class="font">MORE</a>
+
+        </nav>
+        <img src="../src/img2.png" />
+    </header>
+    <!-- -------------------------------Header section End------------- -->
+    <!-- -------------------------------Main section Start------------- -->
+    <main>
+        <div class="container1">
+            <div class="sub-header">
+                <h1>INDIAN RAILWAYS</h1>
+                <P>Safety | Security | Punctuality</P>
+            </div>
+            <div class="mix">
+                <div class="container-box">
+                    <div class="box">
+                        <div>
+                            <img src="https://www.irctc.co.in/nget/assets/images/icons/pnr.png">
+                        </div>
+                        <div>
+                            <a href="https://www.indianrail.gov.in/enquiry/PNR/PnrEnquiry.html?locale=en"
+                                class="pnr">PNR STATUS</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div><img src="https://www.irctc.co.in/nget/assets/images/icons/chart.png"></div>
+                        <div>
+                            <a href="https://www.irctc.co.in/online-charts/">CHART <span>/</span> VACANCY</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container2">
+                    <div class="sub-container">
+                        <div class="azad">
+                            <img src="../src/img3.jpg">
+                        </div>
+                        <div class="text">
+                            <h1>BOOK TICKET</h1>
+                        </div>
+                        <div class="G20">
+                            <img src="../src/img4.png">
+                        </div>
+                    </div>
+
+                    <div class="form">
+                        <div class="form-part">
+                            <div class="form-part1">
+                                <i class="fa fa-location-arrow"></i>
+                                <input type="text" name="tform" required value="" class="form-input">
+                                <label for="tform">Form</label>
+                            </div>
+
+                            <div class="form-part2">
+                                <div>
+                                    <label for="date">DD/MM/YYYY *</label>
+                                </div>
+                                <div>
+                                    <input type="date" name="date" autocomplete="off" class="form-input" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arrow">
+                            <i class='bx bx-chevrons-up'></i>
+                            <i class='bx bx-chevrons-down'></i>
+                        </div>
+
+                        <div class="form-part22">
+
+                            <div class="form-part222">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <input type="text" name="tform" required value="" class="form-input">
+                                <label for="tform">To</label>
+                            </div>
+
+                            <div class="form-part223">
+                                <select name="class" id="class">
+                                    <option value="All Classes">All Classes</option>
+                                    <option value="Anubhuti Class (EA)">Anubhuti Class (EA)</option>
+                                    <option value="AC First class (1A)">AC First class (1A)</option>
+
+                                    <option value="Vistadome AC (EV)">Vistadome AC (EV)</option>
+                                    <option value="Exec. Chair Car (Ec)">Exec. Chair Car (Ec)</option>
+                                    <option value="AC 2 Tier (2A)">AC 2 Tier (2A)</option>
+
+                                    <option value="Sleeper (SL)">Sleeper (SL)</option>
+                                    <option value="Vistadome Non AC (VS)">Vistadome Non AC (VS)</option>
+                                    <option value="Second Sitting (2S)">Second Sitting (2S)</option>
+                                </select>
+                            </div>
+
+
+                        </div>
+                        <div class="general">
+                            <span class='bx bxl-dropbox'></span>
+                            <select name="tickettype" id="tickettype">
+                                <option value="General">General</option>
+                                <option value="ladies">ladies</option>
+                                <option value="Lower Berth/Sr.Citizen">Lower Berth/Sr.Citizen</option>
+                                <option value="Person With Disability">Person With Disability</option>
+                                <option value="Duty Pass">Duty Pass</option>
+                                <option value="Tatkal">Tatkal</option>
+                                <option value="Premium Tatkal">Premium Tatkal</option>
+                            </select>
+                        </div>
+                        <div class="SelectCategory">
+                            <div>
+                                <input type="checkbox" id="disable" /><a>Person With Disability Concession</a>
+                                <input type="checkbox" id="Flexible" /><a>Flexible With Date</a>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="available" /><a>Train with Available</a>
+                                <input type="checkbox" id="Pass" /><a>Railway Pass Concession</a>
+                            </div>
+                        </div>
+                        <div class="ButtonSection">
+                            <div>
+                                <a class="Submit" href="https://www.irctc.co.in/nget/train-search">Search</a>
+                            </div>
+                            <div>
+                                <button class="Disk"><a href="https://www.irctc.co.in/nget/train-search">Try booking in
+                                        Ask DISHA 2.0</a></button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="ExtraInformation">
+                    <p>IRCTC Tejas Express Train 82501/82502 is cancelled for journey date 12.11.2023 (Sunday) on the
+                        occassion of Diwali. Train will run on journey date 14.11.2023 (Tuesday).</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="banner1">
+                <a href="https://www.sbicard.com/sprint/irctcRuPay" target="_blank"><img src="../src/banner1.jpg" /></a>
+            </div>
+        </div>
+
+        <div class="container-3">
+            <div class="banner2">
+                <a href="https://www.sbicard.com/sprint/irctcRuPay" target="_blank"><img
+                        src="https://tpc.googlesyndication.com/simgad/13327383341484186270" /></a>
+            </div>
+        </div>
+
+        <div class="container-4">
+            <h1>Have you not found the right one?<br>
+                Find a service suitable for you here.</h1>
+            <div class="boxs">
+                <div class="box-thing">
+                    <a href="https://www.air.irctc.co.in/" target="_blank"><i class='bx bxs-plane-alt'></i></a>
+                    <H2>FLIGHTS</H2>
+                </div>
+                <div class="box-thing">
+                    <a href="https://hotel.irctctourism.com/hotel" target="_blank"><i class="fa-solid fa-bus"></i></a>
+                    <H2>HOTELS</H2>
+                </div>
+                <div class="box-thing">
+                    <a href="https://raildrishti.indianrailways.gov.in/raildrishti/raildrishtiv3/" target="_blank"><i
+                            class="fa-solid fa-chart-line"></i></a>
+                    <H2>RAIL DRISHTI</H2>
+                </div>
+                <div class="box-thing">
+                    <a href="https://www.ecatering.irctc.co.in/" target="_blank"><i
+                            class="fa-solid fa-bowl-food"></i></a>
+                    <H2>E-CATERING</H2>
+                </div>
+                <div class="box-thing">
+                    <a href="https://www.bus.irctc.co.in/home" target="_blank"><i class='bx bxs-plane-alt'></i></a>
+                    <H2>BUS</H2>
+                </div>
+                <div class="box-thing">
+                    <a href="https://www.irctctourism.com/tourpacakage_search?searchKey=&tagType=&travelType=&category="
+                        target="_blank"><i class="fa-solid fa-umbrella-beach"></i></a>
+                    <H2>HOLIDAY PACKAGES</H2>
+                </div>
+                <div class="box-thing">
+                    <a href="https://www.irctctourism.com/bharatgaurav" target="_blank"><i
+                            class="fa-solid fa-train"></i></a>
+                    <H2>TOURIST TRAIN</H2>
+                </div>
+                <div class="box-thing">
+                    <a href="https://www.irctctourism.com/gallery/" target="_blank"><i
+                            class="fa-solid fa-mountain-sun"></i></a>
+                    <H2>HILL RAILWAYS</H2>
+                </div>
+                <div class="box-thing">
+                    <a href="https://www.ftr.irctc.co.in/ftr/" target="_blank"><i
+                            class="fa-solid fa-train-tram"></i></a>
+                    <H2>CHARTER TRAIN</H2>
+                </div>
+                <div class="box-thing">
+                    <a href="https://www.irctctourism.com/gallery/" target="_blank"><i
+                            class="fa-solid fa-mountain-city"></i></a>
+                    <H2>GALLERY</H2>
+                </div>
+                <div class="banner3">
+                    <img src="https://contents.irctc.co.in/en/GPT_NWEB_HOME_CENTER.jpeg">
+
+                </div>
+            </div>
+        </div>
+        <div class="holiday">
+
+            <div class="videoContainer">
+                <div class="video">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/U_VS8_s2CeQ?autoplay=1&loop=1si=yDMbpPEDn7S7l9na ;autoplay=1&mute=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </video>
+                </div>
+            </div>
+            <h1>HOLIDAYS</h1>
+            <div class="holiday-content">
+                <div class="holi-box">
+                    <img src="https://www.irctc.co.in/nget/assets/images/exterior.jpg" />
+                    <h2>Maharajas' Express</h2>
+                    <p>Redefining Royalty, Luxury and Comfort, Maharajas' express takes you on a sojourn to the era of
+                        bygone stately splendour of princely states. Sylvan furnishings, elegant ambience and modern
+                        amenities are amalgamated for an “Experience Unsurpassed”. It has been a winner of “World’s
+                        Leading Luxury train” by World Travel Awards consecutively for last six years.</p>
+                    <a href="https://www.the-maharajas.com/">Read More<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="holi-box">
+                    <img src="https://www.irctc.co.in/nget/assets/images/Thailand.jpg" />
+                    <h2>International Packages</h2>
+                    <p>Best deals in International Holiday packages, handpicked by IRCTC, for Thailand, Dubai, Sri
+                        Lanka, Hong Kong, China, Macau, Bhutan, Nepal, U.K., Europe, USA, Australia etc. The packages
+                        are inclusive of sightseeing, meals, visa charges and overseas medical insurance to give you a
+                        hassle-free and memorable experience.</p>
+                    <a href="https://www.the-maharajas.com/">Read More<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="holi-box">
+                    <img src="https://www.irctc.co.in/nget/assets/images/Kashmir.jpg" />
+                    <h2>Domestic Air Packages</h2>
+                    <p>Be it the spiritual devotee seeking blessings of Tirupati, Shirdi or Mata Vaishno Devi or the
+                        leisure traveller wanting to relish the Blue mountains of North East, Sand-dunes of Rajasthan,
+                        Hamlets of Ladakh, Wonders of Himalayas, Serene lakes or Picturesque Islands, IRCTC has it all.
+                        Discover India through IRCTC!</p>
+                    <a href="https://www.the-maharajas.com/">Read More<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="holi-box">
+                    <img src="https://www.irctc.co.in/nget/assets/images/Bharat_Gaurav.jpg" />
+                    <h2>Bharat Gaurav Tourist Train</h2>
+                    <p>IRCTC operates Bharat Gaurav Tourist Train having AC III-Tier accommodation on train specially
+                        designed to promote domestic tourism in India. This train runs on various theme based circuits
+                        covering pilgrimage and heritage destinations in its itinerary on a 5 days to 20 days trip and
+                        showcase India’s rich cultural heritage.</p>
+                    <a href="https://www.the-maharajas.com/">Read More<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="holi-box">
+                    <img src="https://www.irctc.co.in/nget/assets/images/Manali.jpg" />
+                    <h2>Rail Tour Packages</h2>
+                    <p>IRCTC offers Exclusive Rail tour packages with confirmed train tickets, sight-seeing and meals
+                        for enchanting Nilgiri Mountains, Darjeeling, Kullu Manali, Kashmir, Gangtok or divine tours of
+                        Mata Vaishno Devi, Rameswaram, Madurai, Shirdi, Tirupati etc. Holiday packages/ Land packages to
+                        these destinations are also available.</p>
+                    <a href="https://www.the-maharajas.com/">Read More<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <a href="google.com" target="_blank">
+                    <div class="holi-box main-box">
+                    </div>
+                </a>
+                <!-- <img src="https://tpc.googlesyndication.com/simgad/8351351279640211878"> -->
+
+
+            </div>
+        </div>
+
+    </main>
+    <!-- -------------------------------Main section END------------- -->
+    <!-- -------------------------------Footer section Start------------- -->
+    <footer class="footer">
+        <div class="footer1">
+            <h2>Get Connected with us on social networks</h2>
+            <div class="footer-box">
+                <a href="https://www.facebook.com/IRCTCofficial/" target="_blank"><i class='bx bxl-facebook'
+                        style="background-color: rgb(16, 16, 198);"></i></a>
+                <a href="https://www.youtube.com/c/IRCTCOFFICIAL" target="_blank"><i class='bx bxl-youtube'
+                        style="background-color: rgb(249, 15, 15);"></i></a>
+                <a href="https://www.instagram.com/irctc.official/?igshid=yyg5byow704l" target="_blank"><i
+                        class='bx bxl-instagram' style="background-color :rgb(38, 68, 159)"></i></a>
+                <a href="https://www.linkedin.com/company/irctcofficial/" target="_blank"><i class='bx bxl-linkedin'
+                        style="background-color: rgb(19, 81, 139);"></i></a>
+                <a href="https://t.me/IRCTC_Official" target="_blank"><i class='bx bxl-telegram'
+                        style="background-color: rgb(12, 91, 181);"></i></a>
+                <a href="https://in.pinterest.com/irctcofficial/" target="_blank"><i class='bx bxl-pinterest-alt'
+                        style="background-color: rgb(214, 13, 13);"></i></a>
+                <a href="https://www.tumblr.com/irctcofficial" target="_blank"><i class="fa-brands fa-tumblr"
+                        style="background-color: rgb(14, 67, 117);"></i></a>
+                <a href="https://twitter.com/IRCTCofficial" target="_blank"><i class='bx bxl-twitter'
+                        style="background-color: rgb(18, 97, 182);"></i></a>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="footer-boxs">
+                <div class="fbox">
+                    <label for="irctc-train">IRCTC TRAINS</label>
+                    <select name="irctc-train" id="irctc-train">
+                        <a href="">
+                            <option value="Salient Feature">salient Feature</option>
+                        </a>
+                        <a href="">
+                            <option value="Ticket Cancellation Rules">Ticket Cancellation Rules</option>
+                        </a>
+                        <a href="">
+                            <option value="Foreign Tourist T&C">Foreign Tourist T&C</option>
+                        </a>
+                        <a href="">
+                            <option value="Travel Ins Claim Process">Travel Ins Claim Process</option>
+                        </a>
+                    </select>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-img">
+            <div class="fimg">
+                <img src="https://www.irctc.co.in/nget/assets/images/security.png" alt="">
+            </div>
+            <div class="timg">
+                <p>Copyright Â© 2023 - www.irctc.co.in. All Rights Reserved</p>
+                <p>Designed and Hosted by <span>CRIS</span></p>
+                <a href="https://contents.irctc.co.in/en/BetaSiteCompatibleBrowser.html" target="_blank">Compatible
+                    Browsers</a>
+            </div>
+        </div>
+    </footer>
+    <!-- -------------------------------Footer section eND------------- -->
+</body>
+<!-- --------------------links script------------------------ -->
+<script src="script.js"></script>
+<!-- -------------------------------------------- -->
+
+</html>
